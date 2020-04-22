@@ -1,9 +1,16 @@
 .welcome-main{
-    background-color: #f9fafc;
-}
-.title{
+    width: 100%;
+    height: 40vh;
+    padding-top: 35vh;
     text-align: center;
 }
-.subtitle{
-    color: #a4abb3;
+.title{
+    display: inline-block;
+    font-size: 3em;
+}
+
+@media(max-width: 48em){
+    .title{
+        font-size: 1.6em;
+    }
 }

@@ -7,7 +7,7 @@ const profile = {
 }
 
 const title = {
-    greet: 'Hello',
+    greet: 'Hello World',
     intro: 'I\'m Zia Arsalan',
     detailIntro: 'Full Stack Developer | Designer | Career Counsler | Tech Student & Teacher'
 }
