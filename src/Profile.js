@@ -38,9 +38,19 @@ const socialCircle = {
     peoplePerHour: 'https://pph.me/ziaarssalan'
 }
 
+const skills = {
+    tagLine: 'what i am best at',
+    points: [
+        'Develop highly interactive Front end / User Interfaces for your web and mobile applications',
+        'Creates application backend in Node, Express & Firebase Database',
+        'Integration of third party services such as Firebase / AWS / Mailchimp / ActiveCampaign / Chatbots'
+    ]
+}
+
 export {
     profile,
     welcome,
     socialCircle,
-    hexDetail
+    hexDetail,
+    skills
 }

@@ -32,13 +32,6 @@
     padding-top: 24px;
     text-align: center;
 }
-.hex-row{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .hex-col{
     position: relative;
     flex: 0 0 25%;

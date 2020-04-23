@@ -15,11 +15,6 @@ export default function Welcome() {
             ')<strong>;</strong></div></div>
             <div className="subtitle">
                 <div className="intro">{welcome.intro}</div>
-                <Social />
-                <div>
-                    <Button text="Contact me" />
-                    <Button text="Resume" />
-                </div>
             </div>
         </div>
     )

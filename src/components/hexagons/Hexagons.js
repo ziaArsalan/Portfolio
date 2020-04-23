@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hexagons.css';
 import { hexDetail } from '../../Profile'
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import speedometerIcon from '@iconify/icons-mdi/speedometer';
 import cellphoneLink from '@iconify/icons-mdi/cellphone-link';
 import lightBulbOutline from '@iconify/icons-mdi/lightbulb-outline';
@@ -11,7 +11,7 @@ import Flip from 'react-reveal/Flip';
 export default function Hexagons() {
     return (
         <div className="hex-wrap">
-            <div className="hex-row">
+            <div className="row">
 
                 <div className="hex-col">
                     <Flip right>
