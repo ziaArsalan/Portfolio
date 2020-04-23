@@ -15,6 +15,11 @@
   font-weight: 500;
   src: local('Montserrat'), url('./assets/fonts/Montserrat-SemiBold.ttf') format('woff');
 }
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: local('Montserrat'), url('./assets/fonts/Montserrat-Bold.ttf') format('woff');
+}
 
 html,
 body {
@@ -23,6 +28,7 @@ body {
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  color: #323232;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

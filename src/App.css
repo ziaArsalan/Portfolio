@@ -7,6 +7,30 @@
 .para-color{
   color: #a4abb3;
 }
+.main-wrap{
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 5rem;
+}
+.title{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.subtitle{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top: 4.5rem;
+  margin-bottom: 35px;
+  font-weight: 500;
+  line-height: 38px;
+}
 
 @media (max-width: 320px){
   body{

@@ -6,10 +6,29 @@ const profile = {
     email: 'ziaarsalan94@yahoo.com'
 }
 
-const title = {
+const welcome = {
     greet: 'Hello World',
     intro: 'I\'m Zia Arsalan',
     detailIntro: 'Full Stack Developer | Designer | Career Counsler | Tech Student & Teacher'
+}
+
+const hexDetail = {
+    Fast: {
+        heading: 'Fast',
+        description: 'Fast load times and lag free interaction, my highest priority.'
+    },
+    Responsive: {
+        heading: 'Responsive',
+        description: 'My layouts will work on any device, big or small.'
+    },
+    Intuitive: {
+        heading: 'Intuitive',
+        description: 'Strong preference for easy to use, intuitive UX/UI.'
+    },
+    Dynamic: {
+        heading: 'Dynamic',
+        description: 'Websites don\'t have to be static, I love making pages come to life.'
+    }
 }
 
 const socialCircle = {
@@ -21,6 +40,7 @@ const socialCircle = {
 
 export {
     profile,
-    title,
-    socialCircle
+    welcome,
+    socialCircle,
+    hexDetail
 }
