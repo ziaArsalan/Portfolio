@@ -25,6 +25,9 @@ html,
 body {
   scroll-behavior: smooth;
 }
+/* body{
+  background-color: #282e32;
+} */
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;

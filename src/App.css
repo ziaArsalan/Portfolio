@@ -13,6 +13,7 @@
   padding-left: 16px;
   padding-right: 16px;
   margin-top: 5rem;
+  padding-top: 20px;
 }
 .row{
   display: -ms-flexbox;
@@ -30,7 +31,7 @@
   text-transform: uppercase;
 }
 .subtitle{
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
   margin-top: 4.5rem;
@@ -38,22 +39,7 @@
   font-weight: 500;
   line-height: 38px;
 }
-.card {
-  position: relative;
-  min-width: 0;
-  background-color: #fff;
-  border-radius: .425rem;
-  -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.11);
-  -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.11);
-  box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.11);
-  padding: 20px;
-}
-.card:hover{
-  transform: scale(1.02);
-  -webkit-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.11);
-  -moz-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.11);
-  box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.11);
-}
+
 
 @media (max-width: 320px){
   body{

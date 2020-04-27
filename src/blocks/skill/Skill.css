@@ -24,7 +24,7 @@
     line-height: 34px;
 }
 
-@media(max-width: 1024px){
+@media(max-width: 768px){
     .col-6{
         flex: 0 0 100%;
         -ms-flex: 0 0 100%;
@@ -32,5 +32,14 @@
     }
     .skill-row {
         flex-wrap: wrap-reverse;
+    }
+}
+
+@media(max-width: 320px){
+    .skill-tagLine{
+        font-size: 24px;
+    }
+    .skill-points{
+        font-size: 18px;
     }
 }

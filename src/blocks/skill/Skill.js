@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade'
 export default function Skill() {
     return (
        <div id="skills" className="main-wrap">
-           <Fade top>
+           <Fade top distance="60px" duration={1000}>
                 <div className="title">Skills</div>
             </Fade>
            <div className="row skill-row">
