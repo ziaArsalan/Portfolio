@@ -5,7 +5,21 @@
 }
 .social-icon{
     font-size: 56px;
-    color: #a4abb3;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.github{
+    color: #333;
+}
+.linkedin{
+    color: #0e76a8;
+}
+.facebook{
+    color: #3b5998;
+}
+.email{
+    color: #fca326;
 }
 .social-icon:hover{
     color: #55198b;
@@ -13,5 +27,7 @@
 @media(max-width: 320px){
     .social-icon{
         font-size: 12vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
     }
 }

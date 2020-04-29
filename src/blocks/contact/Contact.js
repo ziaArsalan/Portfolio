@@ -1,8 +1,10 @@
 import React from 'react';
 import './Contact.css';
-import { contact } from '../../Profile'
-import Form from '../../components/form/Form'
+import { contact, profile } from '../../Profile'
 import Social from '../../components/social/Social'
+import Icon from '@iconify/react';
+import emailEditOutline from '@iconify/icons-mdi/email-edit-outline';
+import cardAccountPhoneOutline from '@iconify/icons-mdi/card-account-phone-outline';
 
 export default function Contact() {
     return (
@@ -10,7 +12,16 @@ export default function Contact() {
             <div className="title">Contact</div>
             <Social />
         	<div className="subtitle contact-subtitle para-color">{contact.tagLine}</div>
-            <Form />
+            <div className="contact-detail para-color">
+                <div className="contact-email">
+                    <Icon icon={emailEditOutline} className="contact-icon" />
+                    {profile.email}
+                </div>
+                <div className="contact-phone">
+                    <Icon icon={cardAccountPhoneOutline} className="contact-icon" />
+                    {profile.phone}
+                </div>
+            </div>
        </div>
     )
 } 

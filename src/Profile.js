@@ -14,6 +14,7 @@ import angularIcon from '@iconify/icons-mdi/angular';
 import reactIcon from '@iconify/icons-mdi/react';
 import nodejsIcon from '@iconify/icons-mdi/nodejs';
 import awsIcon from '@iconify/icons-mdi/aws';
+import jenkinsIcon from '@iconify/icons-simple-icons/jenkins';
 import ubuntuIcon from '@iconify/icons-mdi/ubuntu';
 import mongodbIcon from '@iconify/icons-simple-icons/mongodb';
 import nginxIcon from '@iconify/icons-simple-icons/nginx';
@@ -27,6 +28,7 @@ import robotIcon from '@iconify/icons-mdi/robot';
 import githubIcon from '@iconify/icons-mdi/github';
 import facebookIcon from '@iconify/icons-mdi/facebook';
 import linkedinIcon from '@iconify/icons-mdi/linkedin';
+import emailEdit from '@iconify/icons-mdi/email-edit';
 
 // Reviews Images
 const Reviews = []
@@ -40,8 +42,8 @@ const profile = {
     name: 'Zia Arsalan',
     education: 'Electronic Engineer',
     career: 'Full Stack Developer',
-    phone: '+923475214748',
     email: 'ziaarsalan94@yahoo.com',
+    phone: '+923475214748',
     peoplePerHour: 'https://pph.me/ziaarssalan'
 }
 
@@ -79,6 +81,11 @@ const social = [
         name: 'github',
         link: 'https://github.com/ziaarsalan',
         icon: githubIcon
+    },
+    {
+        name: 'email',
+        link: 'mailto:ziaarsalan94@yahoo.com',
+        icon: emailEdit
     },
     {
         name: 'linkedin',
@@ -199,6 +206,10 @@ const technologies = {
             {
                 name: 'docker',
                 icon: dockerIcon
+            },
+            {
+                name: 'jenkins',
+                icon: jenkinsIcon
             }
         ]
     },
@@ -239,6 +250,10 @@ const contact = {
     }
 }
 
+const footer = {
+    tagLine: 'Made By Zia Arsalan'
+}
+
 export {
     profile,
     welcome,
@@ -248,5 +263,6 @@ export {
     projects,
     technologies,
     reviews,
-    contact
+    contact,
+    footer
 }

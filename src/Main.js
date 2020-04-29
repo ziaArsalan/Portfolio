@@ -6,6 +6,7 @@ import Skills from './blocks/skill/Skill'
 import Project from './blocks/project/Project'
 import Review from './blocks/review/Review'
 import Contact from './blocks/contact/Contact'
+import Footer from './components/footer/Footer'
 
 export default function Main() {
     return (
@@ -17,6 +18,7 @@ export default function Main() {
             <Project />
             <Review />
             <Contact />
+            <Footer />
         </div>
     )
 }

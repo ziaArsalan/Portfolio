@@ -8,7 +8,9 @@ export default function About() {
         <div className="social-wrap">
             {social.map((platform, index) => (
                 <a key={index} href={platform.link} target="_blank">
-                    <Icon icon={platform.icon} className="social-icon" />
+                    <div className="social-icon">
+                        <Icon icon={platform.icon} className={platform.name} />
+                    </div>
                 </a>
             ))}
         </div>
