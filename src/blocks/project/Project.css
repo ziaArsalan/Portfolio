@@ -42,3 +42,8 @@
     text-decoration: none;
     color: #323232;
 }
+@media(max-width: 320px){
+  .card{
+    height: auto;
+  }
+}
