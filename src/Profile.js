@@ -94,7 +94,7 @@ const social = [
     },
     {
         name: 'facebook',
-        link: 'https://www.linkedin.com/in/ziaarsalan/',
+        link: 'https://www.facebook.com/zia.arsalan',
         icon: facebookIcon
     }
 ]
