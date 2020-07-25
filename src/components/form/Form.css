@@ -41,7 +41,11 @@ textarea{
 .contact-button {
     margin-left: auto;
 }
-
+.loader {
+    width: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+}
 #response {
     text-align: right;
     margin-top: 20px;

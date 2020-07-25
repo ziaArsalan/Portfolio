@@ -32,17 +32,18 @@ import emailEdit from '@iconify/icons-mdi/email-edit';
 
 // Reviews Images
 const Reviews = []
-for(let i=1; i<5; i++){
+for(let i=1; i<8; i++){
     Reviews.push(require(`./assets/img/reviews/Artboard${i}.png`))
 }
 
-
+const loader = require('./assets/img/loader.gif')
 
 const profile = {
     name: 'Zia Arsalan',
     education: 'Electronic Engineer',
     career: 'Full Stack Developer',
     email: 'ziaarsalan94@yahoo.com',
+    contactEmail: ['zia20isys@gmail.com', 'ziaarsalan94@yahoo.com'],
     phone: '+923475214748',
     peoplePerHour: 'https://pph.me/ziaarssalan'
 }
@@ -247,7 +248,9 @@ const contact = {
         email: 'Email',
         subject: 'Subject',
         message: 'Your Message'
-    }
+    },
+    url: 'http://contact-us-api.herokuapp.com/api/contact_email'
+    // url = 'http://localhost:8080/api/contact_email'
 }
 
 const footer = {
@@ -264,5 +267,6 @@ export {
     technologies,
     reviews,
     contact,
-    footer
+    footer,
+    loader
 }

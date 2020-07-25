@@ -8,6 +8,6 @@ npm install
 npm run start
 ```
 ### Customization
-To update the content of the according to your personal info customise the `Profile.js` file in the src directory.
+To update the content of the according to your personal info customise the `Profile.js` file in the `src` directory.
 
 The file contain JSON structured data with key value pair just change the value and you are all set.

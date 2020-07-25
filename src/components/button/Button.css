@@ -19,6 +19,11 @@
   color: black;
   transition: ease-in 0.3s;
 }
+.loader-btn {
+  background-color: #ffffff !important;
+  color: black;
+  transition: ease-in 0.3s;
+}
 .project-button{
   display: flex;
   justify-content: center;
