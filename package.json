@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts ../front/build",
-    "deploy": "gh-pages -b origin master -d ../front/build",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -b origin master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
