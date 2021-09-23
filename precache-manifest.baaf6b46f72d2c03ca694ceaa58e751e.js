@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66566d6fbcd9237453951300cded23d4",
+    "revision": "8fd65ee9d0af8eaa1076b9d42af87bcc",
     "url": "/index.html"
   },
   {
-    "revision": "76d7a0ca16fd5f07de89",
+    "revision": "1fcfc89737fda5d44bf5",
     "url": "/static/css/main.97e2ba86.chunk.css"
   },
   {
-    "revision": "cd77cf71545770d876a8",
-    "url": "/static/js/2.ee528658.chunk.js"
+    "revision": "9b55dcd5cc1dc643cc73",
+    "url": "/static/js/2.78920205.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.ee528658.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.78920205.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76d7a0ca16fd5f07de89",
-    "url": "/static/js/main.11ba3de6.chunk.js"
+    "revision": "1fcfc89737fda5d44bf5",
+    "url": "/static/js/main.904bf028.chunk.js"
   },
   {
     "revision": "ab1ba164c9b52bcafd0c",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0aedb80e9732f93e58e1ef19aa7e5ff1",
     "url": "/static/media/Walletly.0aedb80e.png"
+  },
+  {
+    "revision": "c1c89d89091bf05cba29f3eea77fe3c8",
+    "url": "/static/media/beasty.c1c89d89.png"
   },
   {
     "revision": "cad4f6446a6ab57107e058243209a2bc",
