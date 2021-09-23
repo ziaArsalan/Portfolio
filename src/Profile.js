@@ -17,6 +17,7 @@ import awsIcon from '@iconify/icons-mdi/aws';
 import jenkinsIcon from '@iconify/icons-simple-icons/jenkins';
 import ubuntuIcon from '@iconify/icons-mdi/ubuntu';
 import mongodbIcon from '@iconify/icons-simple-icons/mongodb';
+import mysql from '@iconify/icons-simple-icons/mysql';
 import nginxIcon from '@iconify/icons-simple-icons/nginx';
 import dockerIcon from '@iconify/icons-mdi/docker';
 import npmIcon from '@iconify/icons-mdi/npm';
@@ -186,6 +187,10 @@ const technologies = {
             {
                 name: 'mongodb',
                 icon: mongodbIcon
+            },
+            {
+                name: 'sql',
+                icon: mysql
             }
         ]
     },
