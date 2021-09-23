@@ -111,6 +111,12 @@ const skills = {
 }
 
 const projects = {
+    zahraebrahim: {
+        name: 'Zahra Ebrahim',
+        description: 'An ecomerce website that deals in furnitures.',
+        link: 'https://zahraebrahim.com/',
+        imageUrl: 'img/zahra-ebrahim.png'
+    },
     snapthathome: {
         name: 'Snap That Home',
         description: 'Snap that home is a real estate application to find best suitable home for you, but in-app messaging with your agent and ability to engage with finance, conveyancing and industry experts are just a few of the awesome things you get with us. And all with a wingman by your side.',
@@ -123,11 +129,11 @@ const projects = {
         link: 'https://html-editor-react.herokuapp.com/',
         imageUrl: 'img/html-editor.png'
     },
-    zahraebrahim: {
-        name: 'Zahra Ebrahim',
-        description: 'An ecomerce website that deals in furnitures.',
-        link: 'https://zahraebrahim.com/',
-        imageUrl: 'img/zahra-ebrahim.png'
+    beasty: {
+        name: 'Beasty',
+        description: 'A wallet app on ios and android platform with server side apis, having multiple feature to engage your customer.',
+        link: 'https://beasty.app/',
+        imageUrl: 'img/beasty.png'
     },
     walletly: {
         name: 'Walletly',
