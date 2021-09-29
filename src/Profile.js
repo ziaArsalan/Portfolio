@@ -286,6 +286,7 @@ const footer = {
     tagLine: 'Made By Zia Arsalan'
 }
 
+
 export {
     profile,
     welcome,
